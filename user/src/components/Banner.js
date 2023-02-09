@@ -46,7 +46,7 @@ export default function () {
             <div className="col-sm-12">
               <div className="logo">
                 <a href="index.html">
-                  <img src="user/images/logo.png" />
+                  <img src="images/logo.png" />
                 </a>
               </div>
             </div>
@@ -72,7 +72,7 @@ export default function () {
               <a href="jewellery.html">Jewellery</a>
             </div>
             <span className="toggle_icon" onClick={handleOpenNav}>
-              <img src="user/images/toggle-icon.png" />
+              <img src="images/toggle-icon.png" />
             </span>
             <div className="main">
               {/* Another variation with a button */}
@@ -103,7 +103,7 @@ export default function () {
                   aria-expanded="true"
                 >
                   <img
-                    src="user/images/flag-uk.png"
+                    src="images/flag-uk.png"
                     alt="flag"
                     className="mr-2 "
                     title="United Kingdom"
@@ -114,7 +114,7 @@ export default function () {
                 <div className="dropdown-menu ">
                   <a href="#" className="dropdown-item">
                     <img
-                      src="user/images/flag-france.png"
+                      src="images/flag-france.png"
                       className="mr-2"
                       alt="flag"
                     />
