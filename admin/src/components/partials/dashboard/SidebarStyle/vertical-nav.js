@@ -477,7 +477,7 @@ const VerticalNav = () => {
         <li className="nav-item">
           <Link
             className={`${
-              location.pathname === "/dashboard/admin/categories" ? "active" : ""
+              location.pathname === "/dashboard/categories/categories" ? "active" : ""
             } nav-link`}
             to="/dashboard/categories/categories"
           >
@@ -504,9 +504,9 @@ const VerticalNav = () => {
             <span className="item-name">Categories</span>
           </Link>
         </li>
-        <Accordion.Item as="li" eventKey="sidebar-user" bsPrefix="nav-item">
+        <Accordion.Item as="li" eventKey="sidebar-product" bsPrefix="nav-item">
           <CustomToggle
-            eventKey="sidebar-user"
+            eventKey="sidebar-product"
             onClick={(activeKey) => setActiveMenu(activeKey)}
           >
             <i className="icon">
@@ -563,16 +563,16 @@ const VerticalNav = () => {
               </svg>
             </i>
           </CustomToggle>
-          <Accordion.Collapse eventKey="sidebar-user">
+          <Accordion.Collapse eventKey="sidebar-product">
             <ul className="sub-nav">
               <li className="nav-item">
                 <Link
                   className={`${
-                    location.pathname === "/dashboard/app/user-profile"
+                    location.pathname === "/dashboard/product/product-detail"
                       ? "active"
                       : ""
                   } nav-link`}
-                  to="/dashboard/app/user-profile"
+                  to="/dashboard/product/product-detail"
                 >
                   <i className="icon">
                     <svg
@@ -598,11 +598,11 @@ const VerticalNav = () => {
               <li className="nav-item">
                 <Link
                   className={`${
-                    location.pathname === "/dashboard/app/user-add"
+                    location.pathname === "/dashboard/product/product-add"
                       ? "active"
                       : ""
                   } nav-link`}
-                  to="/dashboard/app/user-add"
+                  to="/dashboard/product/product-add"
                 >
                   <i className="icon">
                     <svg
@@ -628,11 +628,11 @@ const VerticalNav = () => {
               <li className="nav-item">
                 <Link
                   className={`${
-                    location.pathname === "/dashboard/app/user-list"
+                    location.pathname === "/dashboard/product/product-list"
                       ? "active"
                       : ""
                   } nav-link`}
-                  to="/dashboard/app/user-list"
+                  to="/dashboard/product/product-list"
                 >
                   <i className="icon">
                     <svg
