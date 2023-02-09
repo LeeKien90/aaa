@@ -23,7 +23,7 @@ const IndexRouters = () => {
         <Route path="/dual-compact" component={DualCompact}></Route>
         <Route path="/boxedFancy" component={BoxedFancy}></Route>
         <Route path="/auth" component={Simple}></Route>
-        <Route path="/errors" component={Simple}></Route>
+        
       </Switch>
     </>
   );
