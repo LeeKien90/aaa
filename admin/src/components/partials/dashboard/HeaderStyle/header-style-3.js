@@ -239,7 +239,7 @@ const HeaderStyle3 = () => {
                                         <Dropdown.Item href="https://templates.iqonic.design/hope-ui/react/build/dashboard/app/user-profile">Profile</Dropdown.Item>
                                         <Dropdown.Item href="https://templates.iqonic.design/hope-ui/react/build/dashboard/app/user-privacy-setting">Privacy Setting</Dropdown.Item>
                                         <Dropdown.Divider />
-                                        <Dropdown.Item href="https://templates.iqonic.design/hope-ui/react/build/auth/sign-in">Logout</Dropdown.Item>
+                                        <Dropdown.Item href=""><Link to="/auth/sign-in">Log out</Link></Dropdown.Item>
                                     </Dropdown.Menu>
                                 </Dropdown>
                             </Nav>

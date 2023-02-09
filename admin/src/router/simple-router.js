@@ -11,6 +11,7 @@ const SimpleRouter = () => {
     return (
             <>
             <Switch>
+
                 {/* auth */}   
                 <Route exact path="/auth/sign-in"      component={SignIn}/>
                 <Route exact path="/auth/sign-up"      component={SignUp}/>       
