@@ -74,28 +74,30 @@ const ProductAdd =() =>{
                               <div className="row">
                                  <Form.Group className="col-md-6 form-group">
                                     <Form.Label htmlFor="fname">Product ID:</Form.Label>
-                                    <Form.Control type="text"  id="fname" placeholder="First Name"/>
+                                    <Form.Control type="text"  id="fname" placeholder="Product ID"/>
                                  </Form.Group>
                                  <Form.Group className="col-md-6 form-group">
                                     <Form.Label htmlFor="lname">Product Name:</Form.Label>
-                                    <Form.Control type="text"  id="lname" placeholder="Last Name"/>
+                                    <Form.Control type="text"  id="lname" placeholder="Product Name"/>
                                  </Form.Group>
                                  <Form.Group className="col-md-6 form-group">
                                     <Form.Label htmlFor="add1">Price:</Form.Label>
-                                    <Form.Control type="text"  id="add1" placeholder="Street Address 1"/>
+                                    <Form.Control type="text"  id="add1" placeholder="Price"/>
                                  </Form.Group>
                                  <Form.Group className="col-md-6 form-group">
                                     <Form.Label htmlFor="add2">Quantity:</Form.Label>
-                                    <Form.Control type="text"  id="add2" placeholder="Street Address 2"/>
+                                    <Form.Control type="text"  id="add2" placeholder="Quantity"/>
                                  </Form.Group>
                                  <Form.Group className="col-md-12 form-group">
-                                    <Form.Label htmlFor="cname">Company Name:</Form.Label>
-                                    <Form.Control type="text"  id="cname" placeholder="Company Name"/>
+                                    <Form.Label htmlFor="cname">Descriptions:</Form.Label>
+                                    <Form.Control type="text"  id="cname" placeholder="Descriptions">
+                                    {/* <textarea type="text" id="descriptions" name="descriptions" defaultValue={""}/> */}
+                                    </Form.Control>
                                  </Form.Group>
                                  <Form.Group className="col-sm-12 form-group">
-                                    <Form.Label>Country:</Form.Label>
+                                    <Form.Label>Size:</Form.Label>
                                     <select name="type" className="selectpicker form-control" data-style="py-0">
-                                       <option>Select Country</option>
+                                       <option>Select Size</option>
                                        <option>Caneda</option>
                                        <option>Noida</option>
                                        <option >USA</option>
