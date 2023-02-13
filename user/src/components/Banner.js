@@ -18,19 +18,16 @@ export default function () {
               <div className="custom_menu">
                 <ul>
                   <li>
-                    <a href="#">Best Sellers</a>
+                    <a href="#">Home</a>
                   </li>
                   <li>
-                    <a href="#">Gift Ideas</a>
+                    <a href="#">Fashion</a>
                   </li>
                   <li>
-                    <a href="#">New Releases</a>
+                    <a href="#">Electronic</a>
                   </li>
                   <li>
-                    <a href="#">Today's Deals</a>
-                  </li>
-                  <li>
-                    <a href="#">Customer Service</a>
+                    <a href="#">Jewellery</a>
                   </li>
                 </ul>
               </div>

@@ -5,11 +5,7 @@ import Card from '../../../components/Card'
 import {Link} from 'react-router-dom'
 // img
 import avatars1 from '../../../assets/images/avatars/01.png'
-import avatars2 from '../../../assets/images/avatars/avtar_1.png'
-import avatars3 from '../../../assets/images/avatars/avtar_2.png'
-import avatars4 from '../../../assets/images/avatars/avtar_3.png'
-import avatars5 from '../../../assets/images/avatars/avtar_4.png'
-import avatars6 from '../../../assets/images/avatars/avtar_5.png'
+
 
 const ProductAdd =() =>{
   return(
@@ -107,7 +103,10 @@ const ProductAdd =() =>{
                                  </Form.Group>
                               </div>
                               <hr/>
-                              <Button type="button" variant="btn btn-primary">Add New User</Button>
+                              <div className="text-center">
+                                 <Button type="button" variant="btn btn-primary">Add New Product</Button>
+                              </div>   
+                              
                            </form>
                         </div>
                      </Card.Body>

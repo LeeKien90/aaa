@@ -8,10 +8,6 @@ const Categories = () => {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
-  const [show1, setShow1] = useState(false);
-
-  const handleClose1 = () => setShow1(false);
-  const handleShow1 = () => setShow1(true);
 
   const [show2, setShow2] = useState(false);
 
@@ -19,7 +15,7 @@ const Categories = () => {
   // const handleShow2 = () => setShow2(true);
 
   const [show3, setShow3] = useState(false);
-  const handleClose3 = () => setShow3(false);
+
 
   let history = useHistory();
 
@@ -248,7 +244,7 @@ const Categories = () => {
                               </span>
                             </Link>
                             <Link className="btn btn-sm btn-icon text-danger "  data-bs-toggle="tooltip" title="Delete User" to="#"  onClick={() => {permissiondeleted(index)}}  >                                                                    
-                                <span className="btn-inner">
+                            <span className="btn-inner">
                                  <svg width="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor">
                                     <path d="M19.3248 9.46826C19.3248 9.46826 18.7818 16.2033 18.4668 19.0403C18.3168 20.3953 17.4798 21.1893 16.1088 21.2143C13.4998 21.2613 10.8878 21.2643 8.27979 21.2093C6.96079 21.1823 6.13779 20.3783 5.99079 19.0473C5.67379 16.1853 5.13379 9.46826 5.13379 9.46826" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path>
                                     <path d="M20.708 6.23975H3.75" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path>
