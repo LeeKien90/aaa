@@ -7,8 +7,7 @@ import Electronic from './components/Electronic'
 import Jewellery from './components/Jewellery';
 import ProductDetail from './components/ProductDetail';
 import ListCart from './components/ListCart';
-// import SignIn from '../../admin/src/views/dashboard/auth/sign-in';
-// import SignUp from '../../admin/src/views/dashboard/auth/sign-up';
+
 
 
 function App() {

@@ -1,5 +1,6 @@
 import React from 'react'
-import './style.scoped.css'
+// import './style.scoped.css'
+import'./product.scoped.css'
 
 export default function ProductDetailCpn() {
   return (
@@ -12,31 +13,17 @@ export default function ProductDetailCpn() {
           className="carousel slide"
           data-ride="carousel"
         >
-          <div className="carousel-inner bg-light">
+          <div className="carousel-inner bg-light wh">
             <div className="carousel-item active">
               <img
-                className="w-50 h-50"
+                className="imgclass"
                 src="images/women-clothes-img.png"
                 alt="Image"
               />
             </div>
             <div className="carousel-item">
               <img
-                className="w-50 h-50"
-                src="images/tshirt-img.png"
-                alt="Image"
-              />
-            </div>
-            <div className="carousel-item">
-              <img
-                className="w-50 h-50"
-                src="images/tshirt-img.png"
-                alt="Image"
-              />
-            </div>
-            <div className="carousel-item">
-              <img
-                className="w-50 h-50"
+                className="imgclass"
                 src="images/tshirt-img.png"
                 alt="Image"
               />
