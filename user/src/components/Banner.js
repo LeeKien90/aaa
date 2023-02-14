@@ -1,33 +1,34 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
 
 export default function () {
-  const handleOpenNav = () =>{
-    return document.getElementById("mySidenav").style.width = "250px";
-  }
+  const handleOpenNav = () => {
+    return (document.getElementById("mySidenav").style.width = "250px");
+  };
 
-  const handleCloseNav = () =>{
-    return document.getElementById("mySidenav").style.width = "0";
-  }
+  const handleCloseNav = () => {
+    return (document.getElementById("mySidenav").style.width = "0");
+  };
   return (
     <>
-    {/* header top section start */}
-    <div className="container">
+      {/* header top section start */}
+      <div className="container">
         <div className="header_section_top">
           <div className="row">
             <div className="col-sm-12">
               <div className="custom_menu">
                 <ul>
                   <li>
-                    <a href="#">Home</a>
+                    <Link to={"/"}>Home</Link>
                   </li>
                   <li>
-                    <a href="#">Fashion</a>
+                    <Link to={"/fashion"}>Fashion</Link>
                   </li>
                   <li>
-                    <a href="#">Electronic</a>
+                    <Link to={"/electronic"}>Electronic</Link>
                   </li>
                   <li>
-                    <a href="#">Jewellery</a>
+                    <Link to={"/jewellery"}>Jewellery</Link>
                   </li>
                 </ul>
               </div>
@@ -42,9 +43,9 @@ export default function () {
           <div className="row">
             <div className="col-sm-12">
               <div className="logo">
-                <a href="index.html">
+                <Link to={"/"}>
                   <img src="images/logo.png" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -63,10 +64,10 @@ export default function () {
               >
                 ×
               </a>
-              <a href="index.html">Home</a>
-              <a href="fashion.html">Fashion</a>
-              <a href="electronic.html">Electronic</a>
-              <a href="jewellery.html">Jewellery</a>
+              <Link to={"/"}>Home</Link>
+              <Link to={"/fashion"}>Fashion</Link>
+              <Link to={"/electronic"}>Electronic</Link>
+              <Link to={"/jewellery"}>Jewellery</Link>
             </div>
             <span className="toggle_icon" onClick={handleOpenNav}>
               <img src="images/toggle-icon.png" />
@@ -83,7 +84,10 @@ export default function () {
                   <button
                     className="btn btn-secondary"
                     type="button"
-                    style={{ backgroundColor: "#f26522", borderColor: "#f26522" }}
+                    style={{
+                      backgroundColor: "#f26522",
+                      borderColor: "#f26522",
+                    }}
                   >
                     <i className="fa fa-search" />
                   </button>
@@ -122,10 +126,10 @@ export default function () {
               <div className="login_menu">
                 <ul>
                   <li>
-                    <a href="#">
+                    <Link to={"/cart"}>
                       <i className="fa fa-shopping-cart" aria-hidden="true" />
                       <span className="padding_10">Cart</span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <a href="#">
@@ -153,58 +157,16 @@ export default function () {
                       Your favriot shoping
                     </h1>
                     <div className="buynow_bt">
-                      <a href="#">Buy Now</a>
+                      <Link to={"/"}>Buy Now</Link>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div className="carousel-item">
-                <div className="row">
-                  <div className="col-sm-12">
-                    <h1 className="banner_taital">
-                      Get Start <br />
-                      Your favriot shoping
-                    </h1>
-                    <div className="buynow_bt">
-                      <a href="#">Buy Now</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="carousel-item">
-                <div className="row">
-                  <div className="col-sm-12">
-                    <h1 className="banner_taital">
-                      Get Start <br />
-                      Your favriot shoping
-                    </h1>
-                    <div className="buynow_bt">
-                      <a href="#">Buy Now</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              </div>              
             </div>
-            <a
-              className="carousel-control-prev"
-              href="#my_slider"
-              role="button"
-              data-slide="prev"
-            >
-              <i className="fa fa-angle-left" />
-            </a>
-            <a
-              className="carousel-control-next"
-              href="#my_slider"
-              role="button"
-              data-slide="next"
-            >
-              <i className="fa fa-angle-right" />
-            </a>
           </div>
         </div>
       </div>
       {/* banner section end */}
     </>
-  )
+  );
 }

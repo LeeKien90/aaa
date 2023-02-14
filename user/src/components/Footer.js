@@ -21,7 +21,7 @@ export default function Footer() {
         </span>
       </div>
       <div className="location_main">
-        Help Line Number : <a href="#">+84 034 754 0123</a>
+        Hot Line Number : <a href="#">+84 034 754 0123</a>
       </div>
     </div>
 </>

@@ -218,6 +218,7 @@ button {
     height: auto;
     background-size: 100%;
     background-repeat: no-repeat;
+    margin-bottom: 30px;
 }
 
 
@@ -646,12 +647,12 @@ a:hover {
 }
 
 #main_slider a.carousel-control-next {
-    right: 615px;
+    right: 45vw;
     top: 105%;
 }
 
 #main_slider a.carousel-control-prev {
-    left: 615px;
+    left: 45vw;
     top: 105%;
 }
 
